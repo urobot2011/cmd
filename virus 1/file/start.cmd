@@ -26,13 +26,13 @@
 ::ZQ0/vhVqMQ3MEVWAtB9wSA==
 ::Zg8zqx1/OA3MEVWAtB9wSA==
 ::dhA7pRFwIByZRRnk
-::Zh4grVQjdCyDJGyX8VAjFC5HSRa+GGStCLkT6ezo0/yOsFgOFLMDfobX34iIKewW+Xn3YZc/wjRfgM5s
+::Zh4grVQjdCyDJGyX8VAjFC5HSRa+GGStCLkT6ezo0/yOsFgOFLMDfobX34iIKewW+Xn3YZc/who=
 ::YB416Ek+ZG8=
 ::
 ::
 ::978f952a14a936cc963da21a135fa983
 @echo off
-PowerShell -Command "Start-Process cmd -Verb RunAs"
+rem PowerShell -Command "Start-Process cmd -Verb RunAs"
 SET FILENAME="C:\Program Files\Windows Power\"
 IF EXIST %FILENAME% (
  echo EXIST FILE.
