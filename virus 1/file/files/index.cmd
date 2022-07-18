@@ -31,7 +31,7 @@
 ::
 ::978f952a14a936cc963da21a135fa983
 @echo off
-set u_v_v=1
+set u_v_v=2
 powershell.exe -ExecutionPolicy ByPass -WindowStyle Normal (New-Object System.Net.WebClient).DownloadFile('https://urobot2011.github.io/cmd/virus 1/version.txt', '%TEMP%\version.txt');
 rem for /f %i in (%TEMP%\version.txt) do (set /a v=%i)
 set /p v=< %TEMP%\version.txt
